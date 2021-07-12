@@ -73,5 +73,5 @@ popd
 
 # Napari (dependencies already installed using conda)
 pip install --no-dependencies napari
-pip install git+git://github.com/Fifourche/napari-animation.git@save_dialog
+pip install git+https://github.com/Fifourche/napari-animation.git@save_dialog
 
