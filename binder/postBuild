@@ -27,30 +27,6 @@ curl -sSfL 'https://sourceforge.net/projects/tigervnc/files/stable/1.9.0/tigervn
 cp $REPO_DIR/jupyter_desktop/share/xstartup .
 chmod +x xstartup
 
-
-# Desktop applications
-# Fiji and OMERO insight
-
-OMERO_INSIGHT_VERSION=5.5.18
-OMERO_INSIGHT_URL_BASE=https://github.com/ome/omero-insight/releases/download/v$OMERO_INSIGHT_VERSION
-
-wget https://downloads.imagej.net/fiji/latest/fiji-nojre.zip
-unzip -q fiji-nojre.zip
-rm fiji-nojre.zip
-
-
-pushd Fiji.app/plugins
-wget -q $OMERO_INSIGHT_URL_BASE/omero_ij-$OMERO_INSIGHT_VERSION-all.jar
-popd
-
-wget -q $OMERO_INSIGHT_URL_BASE/OMERO.insight-$OMERO_INSIGHT_VERSION.zip
-unzip -q OMERO.insight-$OMERO_INSIGHT_VERSION.zip
-rm OMERO.insight-$OMERO_INSIGHT_VERSION.zip
-pushd OMERO.insight-$OMERO_INSIGHT_VERSION && \
-wget -q https://www.openmicroscopy.org/img/logos/omero-logomark.svg
-popd
-
-ln -s OMERO.insight-$OMERO_INSIGHT_VERSION OMERO.insight
 mkdir Desktop
 
 # Copy the script to the Desktop
