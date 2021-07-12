@@ -1,10 +1,8 @@
 name: napari
 channels:
   - conda-forge
-  - ome
 dependencies:
   - zeroc-ice36-python
-  - omero-py
   - pip
   - websockify
   - jupyter-server-proxy
