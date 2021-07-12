@@ -40,4 +40,3 @@ dependencies:
     # napari==
     # Manually install in postBuild instead with --no-dependencies
     - napari_plugin_engine
-    - ome-zarr
