@@ -1,5 +1,5 @@
 # Jupyter OMERO/Fiji/Napari Desktop
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ome/omero-analysis-desktop/master?filepath=napari_s3.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Fifourche/omero-analysis-desktop.git/HEAD?filepath=napari_s3.ipynb)
 [![Actions Status](https://github.com/ome/omero-analysis-desktop/workflows/repo2docker/badge.svg)](https://github.com/ome/omero-analysis-desktop/actions)
 
 
