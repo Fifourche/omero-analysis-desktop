@@ -22,6 +22,7 @@ dependencies:
   - numpydoc
   - numpy
   - Pillow
+  - pooch
   - psutil
   - PyOpenGL
   - PyYAML
