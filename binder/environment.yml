@@ -5,10 +5,8 @@ dependencies:
   - pip
   - websockify
   - jupyter-server-proxy
-  # https://github.com/napari/napari/blob/v0.4.7/setup.cfg
   - appdirs
   - cachey
-  - dask
   - imageio
   - importlib-metadata
   - jsonschema
@@ -27,6 +25,7 @@ dependencies:
   - qtpy
   - qtconsole
   - scipy
+  - skimage
   - tifffile
   - typing_extensions
   - toolz

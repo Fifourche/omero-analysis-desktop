@@ -29,9 +29,6 @@ chmod +x xstartup
 
 mkdir Desktop
 
-# Copy the script to the Desktop
-cp -R $REPO_DIR/scripts Desktop
-
 cp $REPO_DIR/jupyter_desktop/share/*.desktop Desktop
 chmod +x Desktop/*.desktop
 
@@ -49,5 +46,3 @@ popd
 
 # Napari (dependencies already installed using conda)
 pip install --no-dependencies napari
-pip install git+https://github.com/Fifourche/napari-animation.git@save_dialog
-
