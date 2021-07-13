@@ -25,7 +25,7 @@ dependencies:
   - qtpy
   - qtconsole
   - scipy
-  - skimage
+  - scikit-image
   - tifffile
   - typing_extensions
   - toolz
